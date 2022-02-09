@@ -1,0 +1,18 @@
+---
+meraki_key: a2c89109457577cf8e1e5b6e1a8aafde42672d2a
+Org_Name: "DevNet Sandbox"
+Net_Name: "DNSMB5-dxxxxlgmail.com"
+SSID:
+  - name: MyCompany_contractors
+    number: 1
+    enabled: yes
+    auth_mode: psk
+    encryption_mode: wpa
+    psk: Ansible123456!
+
+  - name: MyCompany_customers
+    number: 2
+    enabled: no
+    auth_mode: psk
+    encryption_mode: wpa
+    psk: Ansible123456!
