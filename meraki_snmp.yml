@@ -6,7 +6,7 @@
   
   tasks:
     - name: Query SNMP Settings
-      meraki_snmp: 
+      cisco.meraki.meraki_snmp: 
         auth_key: "{{ meraki_key }}"
         org_name: "{{ Org_Name }}"
         state: query
