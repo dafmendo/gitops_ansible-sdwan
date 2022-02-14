@@ -6,7 +6,6 @@ SSID:
     number: 0
     enabled: true
     auth_mode: open
-    psk: 4nsibl3P4$$
     vlan_id: 33
     state: present
   - name: MyCompany_contractors
