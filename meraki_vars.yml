@@ -7,11 +7,11 @@ SSID:
     enabled: yes
     auth_mode: psk
     encryption_mode: wpa
-    psk: Ansible123456!
+    psk: 4nsibl3P4$$
 
   - name: MyCompany_customers
     number: 2
     enabled: no
     auth_mode: psk
     encryption_mode: wpa
-    psk: Ansible123456!
+    psk: Ansible2022
