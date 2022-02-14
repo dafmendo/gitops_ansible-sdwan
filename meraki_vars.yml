@@ -6,7 +6,6 @@ SSID:
     number: 0
     enabled: true
     auth_mode: open
-    encryption_mode: eap
     psk: 4nsibl3P4$$
     vlan_id: 33
     state: present
@@ -21,6 +20,6 @@ SSID:
     number: 2
     enabled: true
     auth_mode: psk
-    encryption_mode: wpa
+    encryption_mode: eap
     psk: Ansible2022
     state: present
