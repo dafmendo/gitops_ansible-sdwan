@@ -5,7 +5,7 @@ SSID:
   - name: DNSMB4_Test network
     number: 0
     enabled: true
-    auth_mode: Open
+    auth_mode: open
     encryption_mode: eap
     psk: 4nsibl3P4$$
     vlan_id: 33
