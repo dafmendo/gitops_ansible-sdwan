@@ -10,7 +10,6 @@
         auth_key: "{{ meraki_key }}"
         org_name: "{{ Org_Name }}"
         net_name: "{{ Net_Name }}"
-        number: "{{ item.number }}"
         state: "{{ item.state | default('present') }}"
         name: "{{ item.name }}"
         number: "{{ item.number }}"
