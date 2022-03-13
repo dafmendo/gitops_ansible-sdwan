@@ -7,18 +7,16 @@ SSID:
     enabled: yes
     auth_mode: psk
     encryption_mode: wpa
-    psk: 4nsibl3P4$$
+    psk: 4nsibl3P4ss!
   - name: MyCompany_contractors
     number: 2
     enabled: true
     auth_mode: psk
     encryption_mode: wpa
-    psk: 4nsibl3P4$$
-    state: present
+    psk: 4nsibl3Visitor!
   - name: MyCompany_customers
     number: 3
     enabled: true
     auth_mode: psk
-    encryption_mode: eap
+    encryption_mode: wpa
     psk: Ansible.2022
-    state: present
