@@ -13,7 +13,7 @@ SSID:
     enabled: true
     auth_mode: psk
     encryption_mode: wpa
-    psk: 4nsibl3Visitor!
+    psk: 4nsibl3Visitors!
   - name: MyCompany_customers
     number: 3
     enabled: true
