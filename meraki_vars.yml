@@ -2,14 +2,6 @@
 Org_Name: "DevNet Sandbox"
 Net_Name: "DNSMB4-rxxxxxrgmail.com-xxxxsyahoo.com"
 SSID:
-  - name: "DNSMB4_Test network"
-    number: 0
-    enabled: true
-    auth_mode: psk
-    encryption_mode: wpa
-    psk: Ansible987!
-    vlan_id: 33
-    state: present
   - name: MyCompany_employees
     number: 1
     enabled: yes
