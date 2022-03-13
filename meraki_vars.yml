@@ -2,7 +2,7 @@
 Org_Name: "DevNet Sandbox"
 Net_Name: "DNSMB4-rxxxxxrgmail.com-xxxxsyahoo.com"
 SSID:
-  - name: DNSMB4_Test network
+  - name: "DNSMB4_Test network"
     number: 0
     enabled: true
     auth_mode: psk
