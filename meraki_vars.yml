@@ -2,7 +2,7 @@
 Org_Name: "DevNet Sandbox"
 Net_Name: "DNSMB3-cxxxxlcisco.com-dxxxlgmail.com"
 SSID:
-  - name: MyCompany_employeeeees
+  - name: MyCompany_employeeeeees
     number: 1
     enabled: yes
     auth_mode: psk
