@@ -10,13 +10,13 @@ SSID:
     psk: 4nsibl3P4ss!
   - name: MyCompany_contractors
     number: 2
-    enabled: true
+    enabled: disabled
     auth_mode: psk
     encryption_mode: wpa
     psk: 4nsibl3Visitors!
   - name: MyCompany_customers
     number: 3
-    enabled: true
+    enabled: enabled
     auth_mode: psk
     encryption_mode: wpa
     psk: Ansible.2022
