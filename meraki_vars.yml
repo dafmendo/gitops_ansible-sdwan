@@ -4,7 +4,7 @@ Net_Name: "DNSMB3-cxxxxlcisco.com-dxxxlgmail.com"
 SSID:
   - name: MyCompany_employeees
     number: 1
-    enabled: enabled
+    enabled: false
     auth_mode: psk
     encryption_mode: wpa
     psk: 4nsibl3P4ss!
