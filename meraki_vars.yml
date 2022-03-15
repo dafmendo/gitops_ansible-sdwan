@@ -1,15 +1,15 @@
 ---
 Org_Name: "DevNet Sandbox"
-Net_Name: "DNSMB5-pxxxxinetworktocode.com-cxxxxxlcisco.com"
+Net_Name: "DNSMB1-cxxxxlcisco.com-xxxxxsyahoo.com"
 SSID:
-  - name: MyCompany_employees
+  - name: MyCompany_contractors
     number: 1
     enabled: yes
     auth_mode: psk
     encryption_mode: wpa
     psk: 4nsibl3P4ss!
     state: present
-  - name: MyCompany_contractors
+  - name: MyCompany_employees
     number: 2
     enabled: yes
     auth_mode: psk
