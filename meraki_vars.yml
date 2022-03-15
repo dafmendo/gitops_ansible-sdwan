@@ -17,7 +17,7 @@ SSID:
     psk: 4nsibl3Visitors!
   - name: MyCompany_customers
     number: 3
-    enabled: false
+    enabled: true
     auth_mode: psk
     encryption_mode: wpa
     psk: Ansible.2022
