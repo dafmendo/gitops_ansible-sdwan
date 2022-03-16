@@ -9,13 +9,13 @@ SSID:
     encryption_mode: wpa
     psk: 4nsibl3P4ss!
     state: present
-  - name: MyCompany_employeees
+  - name: MyCompany_employees
     number: 2
     enabled: true
     auth_mode: psk
     encryption_mode: wpa
     psk: 4nsibl3Visitors!
-  - name: MyCompany_customerss
+  - name: MyCompany_customers
     number: 3
     enabled: true
     auth_mode: psk
