@@ -2,7 +2,7 @@
 Org_Name: "Red Hat"
 Net_Name: "Scranton-Branch-1338"
 SSID:
-  - name: MyCompany_contractorss
+  - name: MyCompany_contractors
     number: 1
     enabled: true
     auth_mode: psk
