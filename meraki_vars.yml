@@ -1,6 +1,6 @@
 ---
-Org_Name: "DevNet Sandbox"
-Net_Name: "DNSMB3-dxxxxxxxlgmail.com"
+Org_Name: "Red Hat"
+Net_Name: "Scranton-Branch-1338"
 SSID:
   - name: MyCompany_contractors
     number: 1
