@@ -1,0 +1,35 @@
+---
+- hosts: localhost
+  gather_facts: no
+
+  vars: 
+    file_url: https://raw.githubusercontent.com/pseguel-redhat/rhsummitdemo_wireless/main/wireless.yml
+
+  tasks:
+    - name: Get current file
+      set_fact:
+        wireless: "{{ src | from_yaml }}"
+      vars:
+        src: "{{ lookup('url', file_url, split_lines='no') }}"
+
+    - name: update SSIDs
+      cisco.meraki.meraki_mr_ssid:
+        auth_key: "{{ meraki_key }}"
+        org_name: "{{ wireless.Org_Name }}"
+        net_name: "{{ wireless.Net_Name }}"
+        state: "{{ item.state | default('present') }}"
+        enabled: "{{ item.enabled | default(True) | bool}}"
+        name: "{{ item.name }}"
+        number: "{{ item.number }}"
+        encryption_mode: "{{ item.encryption_mode }}"
+        auth_mode: "{{ item.auth_mode }}"
+        psk: "{{ item.psk }}" 
+      delegate_to: localhost
+      loop: "{{ wireless.SSID }}"
+      register: applied_changes
+
+    - name: Save info for next steps
+      set_stats: 
+        data:
+          change_req_id: "{{ change_req_id | default('TEST') }}"
+          applied_changes: "{{ applied_changes | default('TEST') }}"
