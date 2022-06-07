@@ -2,7 +2,7 @@
 Org_Name: "Red Hat"
 Net_Name: Scranton-Branch-1338
 SSID:
-  - name: MyCompany_employees_June
+  - name: MyCompany_employees
     number: 2
     state: present
     enabled: true
