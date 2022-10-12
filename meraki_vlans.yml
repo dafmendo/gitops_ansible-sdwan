@@ -5,16 +5,14 @@
     - meraki_vlan_vars.yml
   
   tasks:
-    - name: Edit SSID Settings
-      cisco.meraki.meraki_mr_ssid: 
+    - name: Edit VLAN Settings
+      cisco.meraki.meraki_mx_vlan: 
         auth_key: "{{ meraki_key }}"
         org_name: "{{ Org_Name }}"
         net_name: "{{ Net_Name }}"
         state: "{{ item.state | default('present') }}"
         name: "{{ item.name }}"
         number: "{{ item.number }}"
-        encryption_mode: "{{ item.encryption_mode }}"
-        auth_mode: "{{ item.auth_mode }}"
-        psk: "{{ item.psk }}" 
+        vlan_id: "{{ item.vlan_id }}"
       delegate_to: localhost
-      loop: "{{ SSID }}"
+      loop: "{{ VLANS }}"
