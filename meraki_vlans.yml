@@ -13,5 +13,6 @@
         state: "{{ item.state | default('present') }}"
         name: "{{ item.name }}"
         vlan_id: "{{ item.vlan_id }}"
+        subnet: "{{ item.subnet }}"
       delegate_to: localhost
       loop: "{{ VLANS }}"
