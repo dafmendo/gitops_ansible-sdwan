@@ -12,7 +12,6 @@
         net_name: "{{ Net_Name }}"
         state: "{{ item.state | default('present') }}"
         name: "{{ item.name }}"
-        number: "{{ item.number }}"
         vlan_id: "{{ item.vlan_id }}"
       delegate_to: localhost
       loop: "{{ VLANS }}"
