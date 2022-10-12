@@ -2,12 +2,6 @@
 Org_Name: "Red Hat"
 Net_Name: "Scranton-Branch-1338"
 VLANS:
-  - name: desktops
-    enabled: true
-    vlan_id: 5
-    state: present
-    subnet: 10.5.10.0/24
-    appliance_ip: 10.5.10.1
   - name: servers
     enabled: true
     vlan_id: 10
