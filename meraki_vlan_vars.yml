@@ -7,11 +7,14 @@ VLANS:
     vlan_id: 5
     state: present
     subnet: 10.5.10.0/24
+    appliance_ip: 10.5.10.1
   - name: servers
     enabled: true
     vlan_id: 10
     subnet: 10.10.10.0/24
+    appliance_ip: 10.10.10.1
   - name: dmzs
     enabled: true
     vlan_id: 20
     subnet: 10.20.10.0/24
+    appliance_ip: 10.20.10.1
