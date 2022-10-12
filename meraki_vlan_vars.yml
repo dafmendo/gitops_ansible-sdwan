@@ -1,0 +1,17 @@
+---
+Org_Name: "Red Hat"
+Net_Name: "Scranton-Branch-1338"
+VLANS:
+  - name: desktops
+    number: 1
+    enabled: true
+    vlan_id: 5
+    state: present
+  - name: servers
+    number: 2
+    enabled: true
+    vlan_id: 10
+  - name: dmzs
+    number: 3
+    enabled: true
+    vlan_id: 20
