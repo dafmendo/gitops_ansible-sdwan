@@ -14,5 +14,6 @@
         name: "{{ item.name }}"
         vlan_id: "{{ item.vlan_id }}"
         subnet: "{{ item.subnet }}"
+        appliance_ip : "{{ item.appliance_ip }}"
       delegate_to: localhost
       loop: "{{ VLANS }}"
