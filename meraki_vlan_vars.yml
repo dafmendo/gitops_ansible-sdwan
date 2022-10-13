@@ -2,12 +2,12 @@
 Org_Name: "Red Hat"
 Net_Name: "Scranton-Branch-1338"
 VLANS:
-  - name: serverss
+  - name: Data
     enabled: true
     vlan_id: 10
     subnet: 10.10.10.0/24
     appliance_ip: 10.10.10.1
-  - name: dmzs
+  - name: Wireless
     enabled: true
     vlan_id: 20
     subnet: 10.20.10.0/24
