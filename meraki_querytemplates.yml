@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+
+  vars_files:
+    - meraki_vars.yml
+  
+  tasks:
+    - name: Edit VLAN Settings
+      meraki_vlan: 
+        auth_key: "{{ meraki_key }}"
+        org_name: "{{ Org_Name }}"
+        state: query
+      delegate_to: localhost
