@@ -2,7 +2,7 @@
 Org_Name: "Red Hat"
 Net_Name: "Scranton-Branch-1338"
 VLANS:
-  - name: servers
+  - name: serverss
     enabled: true
     vlan_id: 10
     subnet: 10.10.10.0/24
