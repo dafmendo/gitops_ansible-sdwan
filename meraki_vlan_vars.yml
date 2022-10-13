@@ -12,3 +12,8 @@ VLANS:
     vlan_id: 20
     subnet: 10.20.10.0/24
     appliance_ip: 10.20.10.1
+  - name: Printer
+    enabled: true
+    vlan_id: 30
+    subnet: 10.30.10.0/24
+    appliance_ip: 10.30.10.1
