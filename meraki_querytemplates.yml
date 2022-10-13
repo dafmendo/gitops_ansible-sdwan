@@ -5,8 +5,8 @@
     - meraki_vars.yml
   
   tasks:
-    - name: Edit VLAN Settings
-      meraki_vlan: 
+    - name: Query configuration templates
+      meraki_config_template: 
         auth_key: "{{ meraki_key }}"
         org_name: "{{ Org_Name }}"
         state: query
