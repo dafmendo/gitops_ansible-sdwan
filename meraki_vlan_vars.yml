@@ -2,17 +2,17 @@
 Org_Name: "Red Hat"
 Net_Name: "Scranton-Branch-1338"
 VLANS:
-  - name: Data
+  - name: Desktops
     enabled: true
     vlan_id: 10
     subnet: 10.10.10.0/24
     appliance_ip: 10.10.10.1
-  - name: Wireless
+  - name: Servers
     enabled: true
     vlan_id: 20
     subnet: 10.20.10.0/24
     appliance_ip: 10.20.10.1
-  - name: Printer
+  - name: Dmz
     enabled: true
     vlan_id: 30
     subnet: 10.30.10.0/24
