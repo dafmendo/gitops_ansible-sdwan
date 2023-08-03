@@ -8,7 +8,7 @@ SSID:
     enabled: true
     auth_mode: psk
     encryption_mode: wpa
-    psk: Ansible123456c!
+    psk: Ansible123456cd!
   - name: AutomatesICON_contractors
     number: 3
     state: present
