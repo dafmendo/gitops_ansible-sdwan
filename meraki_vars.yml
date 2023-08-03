@@ -7,7 +7,7 @@ SSID:
     enabled: true
     auth_mode: psk
     encryption_mode: wpa
-    psk: 4nsibl3P4ss!
+    psk: 4nsibl3P4sss!
     state: present
   - name: MyCompany_employees
     number: 2
