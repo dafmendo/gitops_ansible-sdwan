@@ -2,21 +2,21 @@
 Org_Name: "Red Hat"
 Net_Name: Scranton-Branch-ICON
 SSID:
-  - name: MyCompany_employees
+  - name: AutomatesICON_employees
     number: 2
     state: present
     enabled: true
     auth_mode: psk
     encryption_mode: wpa
     psk: Ansible123456c!
-  - name: MyCompany_contractors
+  - name: AutomatesICON_contractors
     number: 3
     state: present
     enabled: false
     auth_mode: psk
     encryption_mode: wpa
     psk: Ansible123456!
-  - name: MyCompany_customers
+  - name: AutomatesICON_customers
     number: 4
     state: present
     enabled: true
