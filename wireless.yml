@@ -8,7 +8,7 @@ SSID:
     enabled: true
     auth_mode: psk
     encryption_mode: wpa
-    psk: Ansible123456!
+    psk: Ansible123456c!
   - name: MyCompany_contractors
     number: 3
     state: present
